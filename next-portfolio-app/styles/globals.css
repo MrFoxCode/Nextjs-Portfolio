@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+.button-nav1, .navbar-container .navbutton-container button {
+  width: 100px;
+  height: 40px;
+  border-radius: 1em;
+  background-color: white;
+  border: 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.navbar-container {
+  width: 100%;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  position: fixed;
+}
+
+.navbar-container .navtittle-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 200px;
+  background-color: red;
+}
+
+.navbar-container .navtittle-container img {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  margin-right: 15px;
+}
+
+.navbar-container .navtittle-container h2 {
+  color: white;
+}
+
+.navbar-container .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-decoration: none;
+  list-style: none;
+  width: 550px;
+}
+
+.navbar-container .nav-links a {
+  font-size: 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.navbar-container .nav-links :hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(96%, rgba(255, 255, 255, 0)), color-stop(96%, white), to(white));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 96%, white 96%, white 100%);
+}
+
+.navbar-container .nav-links li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 70px;
+  width: 100px;
+  color: white;
+}
+
+.navbar-container .nav-links :hover {
+  color: #c5c5c5;
+}
+
+.navbar-container .navbutton-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar-container .navbutton-container :hover {
+  cursor: pointer;
+  background-color: #d8d8d8;
+}
+
+.home-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  background-color: green;
+}
+
+.about-container {
+  height: 100vh;
+  background-color: #262686;
+}
+
+.projects-container {
+  height: 100vh;
+  background-color: gray;
+}
+
+.contact-container {
+  height: 100vh;
+  background-color: yellowgreen;
+}
+
+.footer-container {
+  height: 50vh;
+  background-color: black;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+/*# sourceMappingURL=globals.css.map */

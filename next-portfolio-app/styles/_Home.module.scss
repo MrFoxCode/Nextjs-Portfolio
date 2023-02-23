@@ -1,0 +1,6 @@
+.home-container{
+    @include flexCenter();
+    height: 100vh;
+    background-color: green;
+    
+}
