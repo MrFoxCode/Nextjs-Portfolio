@@ -1,6 +1,8 @@
 .home-container{
     @include flexCenter();
     height: 100vh;
-    background-color: green;
-    
+    //background-image: url("");
+    transition: 0.5s;
+    background-color: rgb(33, 90, 177);
+    //background: linear-gradient(90deg, rgb(230, 230, 230) 60%, rgb(33, 90, 177) 60%, rgb(33, 90, 177) 100%);
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import config from "../config.json";
 
 function Navbar(){
 
@@ -20,10 +21,13 @@ function Navbar(){
                     </ul>
             </div>
         
-            {/*             
-            <div className="navbutton-container">
-                <button> Contact Me</button>
-            </div> */}
+                         
+            <div className="lang-container">                
+                <img src={config.globeLogo}></img>
+                <ul>
+                    <li>EN</li>
+                </ul>
+            </div> 
 
 
 
