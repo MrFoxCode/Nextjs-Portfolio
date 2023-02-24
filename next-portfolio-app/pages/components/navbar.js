@@ -7,15 +7,15 @@ function Navbar(){
         <div className="navbar-container">
 
             <div className="navtittle-container">
-                <img></img>
-                <h2> Tittle Tittle</h2>                
+                <img src={config.navLogo}></img>
+                <h2>Dev. Rondnelle</h2>                
             </div>
 
 
             <div className="navlinks-container">
                 <ul className="nav-links">
                     <a><li>Home</li></a>
-                    <a><li>About</li></a>                    
+                    <a><li>About Me</li></a>                    
                     <a><li>Projects</li></a>                    
                     <a><li>Contact</li></a>                    
                     </ul>

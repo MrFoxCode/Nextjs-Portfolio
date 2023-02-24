@@ -1,7 +1,8 @@
 .navbar-container{
     width: 100%;
     height: 70px;
-    background-color: rgba(35, 77, 141,0.3);
+    //background-color: rgb(33, 90, 177);
+    //background-color: rgba(35, 77, 141,0.3);
     @include flexCenter();
     justify-content: space-between;
     padding-left: 150px;
@@ -13,12 +14,13 @@
     .navtittle-container{
         @include flexCenter();
         justify-content: flex-start;
-        width: 200px;
+        width: 400px;
        // background-color: red;
         img{
-            width: 50px;
-            height: 50px;
-            background-color: blue;
+            width: 40px;
+            height: 40px;
+            filter: brightness(0) invert(1);
+           //background-color: blue;
             margin-right: 15px;
         }
         h2{

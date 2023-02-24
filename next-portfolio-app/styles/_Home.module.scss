@@ -1,8 +1,96 @@
 .home-container{
     @include flexCenter();
-    height: 100vh;
-    //background-image: url("");
-    transition: 0.5s;
-    background-color: rgb(33, 90, 177);
-    //background: linear-gradient(90deg, rgb(230, 230, 230) 60%, rgb(33, 90, 177) 60%, rgb(33, 90, 177) 100%);
+    height: 120vh;
+    background-image: url($homeBG);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    //transition: 0.5s;
+    //background-color: rgb(226, 226, 226);
+    //background-color: rgb(33, 90, 177);
+    //background: linear-gradient(70deg, rgb(230, 230, 230) 50%, rgb(33, 90, 177) 50%, rgb(33, 90, 177) 100%);
+
+    .content-container{
+        @include flexCenter();
+        background: linear-gradient(80deg, rgba(0, 0, 0, 0.4) 50%, rgba(33, 90, 177, 0.9) 50%, rgba(33, 90, 177, 0.9) 100%);
+        //background-color:rgb(218, 218, 218);
+        width: 100%;
+        height:120vh;
+
+        .leftside-content{
+            @include flexCenter();
+            flex-direction: column;
+            width: 50%;
+            height: 80vh;
+            //background-color: rgb(255, 255, 255);
+            margin: 35px;            
+            border-radius: 0.2em;
+            h2{
+                font-size: 85px;
+                color: white;
+            }
+            h3{
+                color: white;
+                font-weight: 400;
+
+            }
+        
+        }
+        .rightside-content{
+            @include flexCenter();
+            flex-direction: column;
+            width: 45%;
+            height: 80vh;
+            margin: 35px;
+            border-radius: 0.2em;
+            //background-color: rgb(255, 255, 255);
+            img{
+                @include flexCenter();
+                display: none;
+                width: 500px;
+                height: 200px;
+                background-color: rgba($color: #000000, $alpha: 0);
+                //background-image: url("");
+                margin-bottom: 50px;
+            }
+            
+            h2{
+                font-size: 35px;
+                font-weight: 100;
+                color: white;
+                margin-bottom: 30px;
+            }
+            h3{
+                font-size: 20px;
+                font-weight: 100;
+                color: white;
+            }
+
+            .homebutton-container{
+                @include flexCenter();
+                button{
+                    cursor: pointer;
+                    @extend .home-button;               
+                    @include flexCenter();
+                    border: 2px solid;
+                    transition: 0.3s;
+                    color: white;
+                    height: 50px;
+                    width: 180px;               
+                }:hover{
+                    transition: 0.3s;
+                    background-color: white;
+                    color: rgb(33, 90, 177);
+                    border-color: white;
+                    font-weight: 300;
+                }
+            }
+            
+
+        }
+        
+    }
+  
+
+
 }
