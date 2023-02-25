@@ -18,7 +18,7 @@ function Navbar(){
                     <a><li>About Me</li></a>                    
                     <a><li>Projects</li></a>                    
                     <a><li>Contact</li></a>                    
-                    </ul>
+                </ul>
             </div>
         
                          

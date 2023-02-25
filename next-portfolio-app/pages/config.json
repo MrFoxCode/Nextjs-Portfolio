@@ -2,8 +2,23 @@
 
     "headLogo": "",
     "navLogo": "https://cdn-icons-png.flaticon.com/512/7544/7544562.png",
-    "ProfilePic": "",
-    "globeLogo": "https://cdn-icons-png.flaticon.com/128/3870/3870936.png"
+    "profilePic": "https://avatars.githubusercontent.com/u/32100309?v=4",
+    "globeLogo": "https://cdn-icons-png.flaticon.com/128/3870/3870936.png",
+    
+    "javaScriptLogo": "https://cdn-icons-png.flaticon.com/512/721/721671.png",
+    "htmlLogo": "https://cdn-icons-png.flaticon.com/512/1051/1051328.png",
+    "cssLogo": "https://cdn-icons-png.flaticon.com/512/732/732007.png",
+    
+    "reactLogo": "https://cdn-icons-png.flaticon.com/128/3393/3393920.png",
+    "nextLogo": "https://static-00.iconduck.com/assets.00/next-js-icon-512x512-zuauazrk.png",
+    "nodeLogo": "https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png",
+    "sassLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png",
+
+    "gitLogo": "https://git-scm.com/images/logos/downloads/Git-Icon-Black.png",
+    "figmaLogo": "https://cdn-icons-png.flaticon.com/512/8297/8297984.png",
+    "githubLogo": "https://cdn-icons-png.flaticon.com/512/1051/1051326.png"
+
+
 
 
 }
