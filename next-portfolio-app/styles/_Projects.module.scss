@@ -7,12 +7,31 @@
     background-repeat: no-repeat;
     //background-color: rgba(36, 36, 36, 0.9);
 
+    .project-tittle-container{
+        @include flexCenter();
+        position: absolute;
+        left: 0px;
+        top: 222vh;
+        align-items: flex-start;
+        padding-left: 50px;
+        flex-direction: column;
+        //background-color: red;
+        height: 50px;
+        width: 500px;
+        
+        h2{
+            color: white;
+        }
+    }
+
     .projects-content{
         @include flexCenter();
         width: 100%;
         height: 100vh;
         //background: linear-gradient(20deg, rgba(54, 54, 54, 0.8) 76.4%, rgba(36, 36, 36, 0.9) 76.4%, rgba(36, 36, 36, 0.9) 100%);
         background: linear-gradient(-10deg, rgba(54, 54, 54, 1) 86.9%, rgba(33, 90, 177, 0.9) 86.9%, rgba(33, 90, 177, 0.9) 100%);
+
+      
 
         .projects-left-container{
             height: 100vh;
