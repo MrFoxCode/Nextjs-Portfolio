@@ -66,13 +66,14 @@
           }
 
           .about-stacks-container, .about-stacks-container2, .about-stacks-container3 {
-            @include flexCenter();
-            
+            @include flexCenter();            
             flex-direction: row;
             
             div{                
                 @include flexCenter();
-                margin: 30px;
+                width: 64px;
+                height: 70px;
+                margin: 34px;
                 flex-direction: column;
                 img{
                     filter: brightness(0) invert(1);
