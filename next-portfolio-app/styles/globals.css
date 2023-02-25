@@ -387,7 +387,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .about-container .about-content .aboutleft-container .aboutTittle-container h3 {
@@ -407,9 +407,29 @@
 }
 
 .about-container .about-content .aboutleft-container .socials-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 250px;
-  height: 30px;
-  background-color: red;
+  height: 42px;
+  margin-bottom: 10px;
+}
+
+.about-container .about-content .aboutleft-container .socials-container a {
+  margin: 10px;
+}
+
+.about-container .about-content .aboutleft-container .socials-container img {
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+  width: 35px;
+  height: 35px;
 }
 
 .about-container .about-content .aboutleft-container .summary-container {

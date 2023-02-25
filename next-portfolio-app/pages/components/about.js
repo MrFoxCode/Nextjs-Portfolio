@@ -14,8 +14,11 @@ function About(){
                 <h3>Rondnelle Leandro dos Santos</h3>
                 <h4>Front-End Developer</h4>
                 </div>
-                <div className="socials-container">
 
+                <div className="socials-container">
+                    <a href={config.linkedinLink}><img src={config.linkedinLogo}></img></a>
+                    <a href=""><img src={config.emailLogo}></img></a>
+                    <a href={config.githubLink}><img src={config.githubLogo}></img></a>
                 </div>
 
                 <div className="summary-container">

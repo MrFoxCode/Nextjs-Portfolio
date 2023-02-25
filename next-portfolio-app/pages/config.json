@@ -16,6 +16,12 @@
 
     "gitLogo": "https://git-scm.com/images/logos/downloads/Git-Icon-Black.png",
     "figmaLogo": "https://cdn-icons-png.flaticon.com/512/8297/8297984.png",
-    "githubLogo": "https://cdn-icons-png.flaticon.com/512/1051/1051326.png"
+    "githubLogo": "https://cdn-icons-png.flaticon.com/512/1051/1051326.png",
+
+    "linkedinLogo": "https://cdn-icons-png.flaticon.com/128/1384/1384014.png",
+    "emailLogo": "https://cdn-icons-png.flaticon.com/128/3178/3178158.png",
+    
+    "linkedinLink": "https://www.linkedin.com/in/rondnelle/",
+    "githubLink": "https://github.com/MrFoxCode"
 
 }

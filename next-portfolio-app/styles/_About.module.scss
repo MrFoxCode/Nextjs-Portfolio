@@ -37,7 +37,7 @@
             .aboutTittle-container{
                 @include flexCenter();
                 flex-direction: column;
-                margin-bottom: 20px;
+                margin-bottom: 24px;
                 h3{
                     font-size: 30px;
                     margin-bottom: 10px;
@@ -55,9 +55,21 @@
             }
 
             .socials-container{
+                @include flexCenter();
                 width: 250px;
-                height: 30px;
-                background-color: red;
+                height:42px;
+                //background-color: red;
+                margin-bottom: 10px;
+                
+                a{
+                    margin:10px;
+                }
+
+                img{
+                  filter: brightness(0) invert(1);
+                 width: 35px;
+                 height: 35px;
+                }
                 
 
             }
