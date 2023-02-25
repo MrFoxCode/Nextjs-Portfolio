@@ -1,4 +1,28 @@
 .projects-container{
+    @include flexCenter();
     height: 100vh;
-    background-color: gray;
+    background-image: url($aboutBG);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    //background-color: rgba(36, 36, 36, 0.9);
+
+    .projects-content{
+        @include flexCenter();
+        width: 100%;
+        height: 100vh;
+        //background: linear-gradient(20deg, rgba(54, 54, 54, 0.8) 76.4%, rgba(36, 36, 36, 0.9) 76.4%, rgba(36, 36, 36, 0.9) 100%);
+        background: linear-gradient(-10deg, rgba(54, 54, 54, 1) 86.9%, rgba(33, 90, 177, 0.9) 86.9%, rgba(33, 90, 177, 0.9) 100%);
+
+        .projects-left-container{
+            height: 100vh;
+            width: 100%;
+        }
+        .projects-right-container{
+            height: 100vh;
+            width: 100%;
+        }
+       
+    }
+
 }

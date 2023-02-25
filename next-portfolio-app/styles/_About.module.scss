@@ -37,6 +37,7 @@
             .aboutTittle-container{
                 @include flexCenter();
                 flex-direction: column;
+                margin-bottom: 20px;
                 h3{
                     font-size: 30px;
                     margin-bottom: 10px;
@@ -52,6 +53,32 @@
                     background-color: $customBlueColor;
                 }
             }
+
+            .socials-container{
+                width: 250px;
+                height: 30px;
+                background-color: red;
+                
+
+            }
+
+            .summary-container{
+                @include flexCenter();
+                flex-direction: column;
+                h4{
+                    font-size: 20px;
+                    color: white;
+                    margin-bottom: 10px;
+                }
+                p{
+                    padding-left: 90px;
+                    padding-right: 90px;
+                    color: white;
+                    text-align: center;
+                }
+
+            }
+
             
         }
         .aboutright-container{

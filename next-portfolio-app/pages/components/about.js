@@ -14,6 +14,17 @@ function About(){
                 <h3>Rondnelle Leandro dos Santos</h3>
                 <h4>Front-End Developer</h4>
                 </div>
+                <div className="socials-container">
+
+                </div>
+
+                <div className="summary-container">
+                    <h4>Summary</h4>
+                    <p>
+                    "I love to learn new skills everyday, especially when these new skills can teach me something new that allows me to
+                    evolve, not only professionally but also as person".
+                    </p>
+                </div>
                 
                 
 
@@ -70,13 +81,13 @@ function About(){
                 <div>
                     <img src={config.gitLogo}></img>
                     <h4>Git</h4>
-                    <p>+1 year</p>
+                    <p>+7 Months</p>
                 </div>
 
                 <div>
                     <img src={config.figmaLogo}></img>
                     <h4>Figma</h4>
-                    <p>+1 Year</p>
+                    <p>+8 Months</p>
                 </div>
 
                 <div>
