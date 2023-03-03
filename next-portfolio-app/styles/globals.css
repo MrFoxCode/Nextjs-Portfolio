@@ -9,7 +9,7 @@
   font-weight: 500;
 }
 
-.home-button, .home-container .content-container .rightside-content .homebutton-container button {
+.home-button, .home-container .content-container .rightside-content .homebutton-container button, .projects-container .projects-content .projects-all-container .project1 .project-buttons button {
   width: 200px;
   height: 60px;
   padding-top: 0.2em;
@@ -549,11 +549,15 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 100vh;
+  height: 120vh;
   background-image: url("https://w0.peakpx.com/wallpaper/270/1010/HD-wallpaper-programming-ultra-computers-hardware-creative-laptop-design-designer-working-technology-computer-office-code-html-hacker-notebook-programming-typing-software-electronics-workspace.jpg");
-  background-position: right;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .projects-container .project-tittle-container {
@@ -566,7 +570,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  position: absolute;
+  height: 10vh;
+  width: 100%;
   left: 0px;
   top: 222vh;
   -webkit-box-align: start;
@@ -577,8 +582,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 50px;
-  width: 500px;
 }
 
 .projects-container .project-tittle-container h2 {
@@ -595,19 +598,145 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 100%;
-  height: 100vh;
-  background: linear-gradient(-10deg, #363636 86.9%, rgba(33, 90, 177, 0.9) 86.9%, rgba(33, 90, 177, 0.9) 100%);
+  height: 120vh;
+  background: linear-gradient(-8.5deg, rgba(54, 54, 54, 0.9) 89.9%, rgba(33, 90, 177, 0.9) 89.9%, rgba(33, 90, 177, 0.9) 100%);
 }
 
-.projects-container .projects-content .projects-left-container {
-  height: 100vh;
+.projects-container .projects-content .projects-all-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100%;
+  height: 90vh;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
-.projects-container .projects-content .projects-right-container {
-  height: 100vh;
-  width: 100%;
+.projects-container .projects-content .projects-all-container .project1 {
+  background-color: rgba(33, 90, 177, 0.9);
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 450px;
+  width: 300px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-radius: 0.3em;
+  color: white;
+}
+
+.projects-container .projects-content .projects-all-container .project1 img {
+  width: 280px;
+  height: 180px;
+}
+
+.projects-container .projects-content .projects-all-container .project1 h4 {
+  font-size: 25px;
+}
+
+.projects-container .projects-content .projects-all-container .project1 .data-container {
+  font-size: 15px;
+}
+
+.projects-container .projects-content .projects-all-container .project1 p {
+  text-align: center;
+  font-size: 16px;
+}
+
+.projects-container .projects-content .projects-all-container .project1 .project-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.projects-container .projects-content .projects-all-container .project1 .project-buttons button {
+  margin: 5px;
+  padding-top: 0;
+  padding-bottom: 3px;
+  width: 130px;
+  height: 40px;
+  color: white;
+  border: 2px solid;
+  font-size: 20px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.projects-container .projects-content .projects-all-container .project1 .project-buttons :hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background-color: white;
+  color: #215ab1;
+  border-color: white;
+  font-weight: 300;
+}
+
+.projects-container .projects-content .more-projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 20vh;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.projects-container .projects-content .more-projects a {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.projects-container .projects-content .more-projects :hover {
+  text-decoration: underline;
 }
 
 .contact-container {

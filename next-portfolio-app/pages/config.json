@@ -22,6 +22,11 @@
     "emailLogo": "https://cdn-icons-png.flaticon.com/128/3178/3178158.png",
     
     "linkedinLink": "https://www.linkedin.com/in/rondnelle/",
-    "githubLink": "https://github.com/MrFoxCode"
+    "githubLink": "https://github.com/MrFoxCode",
+
+    "img_project1": "https://cdn.discordapp.com/attachments/1046815806866083893/1081268105319288872/project-image1.png",
+    "img_project2": "https://cdn.discordapp.com/attachments/1046815806866083893/1081269977451089931/project-image2.png",
+    "img_project3": "https://cdn.discordapp.com/attachments/1046815806866083893/1081272119830270042/project-image3.png",
+    "img_project4": "https://cdn.discordapp.com/attachments/1046815806866083893/1081275175544295566/project-image4.png"
 
 }
