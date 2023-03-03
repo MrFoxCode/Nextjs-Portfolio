@@ -3,6 +3,12 @@ import config from "../config.json";
 
 
 function Contact(){
+
+//
+// FORM SCRIPT
+//
+
+//---------------------------
     return(
         <div className="contact-container">
 
@@ -51,6 +57,12 @@ function Contact(){
                 <div className="contact-right-container">
 
                     <div className="contact-socials-container">
+                        
+                        <h3>Or reach me out on my LinkedIn:</h3>
+                        
+                        <div className="contact-socials-button">
+                        <a href={config.linkedinLink} target={"_blank"}><img src={config.linkedinLogo}></img>LinkedIn</a>
+                        </div>
                     </div>   
 
 

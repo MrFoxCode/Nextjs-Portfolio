@@ -67,7 +67,7 @@ function Projects(){
                         <p className="data-container"> Made in 2021</p>
                         </div>
                         <p>A simple tool to convert values among three
-                         kind of currency. One of my first projects.
+                         kind of currency. One of the my first projects.
                         </p>
                         <div className="project-buttons">
                         <a href="https://codepen.io/foxvulpes/full/NWgaGMB" target={"_blank"}><button>See project</button></a>
