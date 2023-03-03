@@ -73,17 +73,24 @@
                 .project-buttons{
                     @include flexCenter();
                     flex-direction: row;
-                    button{
-                        @extend .home-button;
+                    
+                    a{
+                        button{
+                            @extend .home-button; 
+                            width: 130px;
+                            height: 40px;
+                            color: white;
+                            border: 0;
+                            font-size: 20px;
+                            padding-top: 0;
+                            padding-bottom: 4px;
+                            cursor: pointer;
+                            
+                        }
                         margin: 5px;
-                        padding-top: 0;
-                        padding-bottom: 3px;
-                        width: 130px;
-                        height: 40px;
+                        border-radius: 0.3em;
                         color: white;
                         border: 2px solid;
-                        font-size: 20px;
-                        cursor: pointer;
                         transition: 0.3s;
                     }:hover{
                         transition: 0.3s;
@@ -91,6 +98,7 @@
                         color: rgb(33, 90, 177);
                         border-color: white;
                         font-weight: 300;
+                        
                     }
 
                 }
@@ -106,9 +114,6 @@
             a{
             font-size: 25px;
             color: white;
-            text-decoration: none;            
-            }:hover{
-                text-decoration: underline;
             }
         }
        

@@ -1,4 +1,113 @@
 .contact-container{
     height: 100vh;
-    background-color: yellowgreen;
+    //background-color: $grayWhiteColor2;
+    background-image: url($homeBG);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200%;
+
+
+    .contact-all{
+        height: 100vh;
+        width: 100%;
+        @include flexCenter();
+        //background: linear-gradient(-80deg, rgba(54, 54, 54, 0.9) 49.2%, rgba(36, 36, 36, 0.9) 49.2%, rgba(36, 36, 36, 0.9) 100%);
+        //background: linear-gradient(80deg, rgba(238, 238, 238, 0.5) 49.2%, rgba(36, 36, 36, 0.9) 49.2%, rgba(36, 36, 36, 0.9) 100%);
+        
+        background: linear-gradient(-80deg, rgba(0, 0, 0, 0.4) 50%, rgba(33, 90, 177, 0.9) 50%, rgba(33, 90, 177, 0.9) 100%);
+
+
+        .contact-left-container{
+            @include flexCenter();
+            flex-direction: column;
+            height: 100vh;
+            width: 50%;
+
+            .contact-tittle-ontop{
+                color: white;
+                font-size: 27px;
+            }
+
+            .contact-form{
+                @include flexCenter();
+                flex-direction: column;
+                height: 80vh;
+                width: 500px;
+               // background-color: rgba(36, 36, 36, 0.2);
+               // background-color: $blue;
+               // background-color: rgba(201, 201, 201, 0.7);
+                border-radius: 0.3em;
+
+                h4{
+                    font-size: 15px;
+                    color: white;
+
+                }
+                input{
+                    height: 30px;
+                    width: 400px;
+                    margin-bottom: 25px;
+                    border-radius: 0.2em;
+                    border: 0;
+                    
+                    text-align: center;
+                }
+
+                .subject{
+                    input{
+                        height: 100px;
+                        width: 400px;
+                        margin-bottom: 25px;
+                    }
+
+                }
+
+                .submit-button{
+                    button{
+                        cursor: pointer;
+                        @extend .home-button;
+                        color: white; 
+                        border: 2px solid;
+                        width: 200px;
+                        height: 50px;
+                        padding-bottom: 8px;
+                        transition: 0.3s;
+                    }:hover{
+                        transition: 0.3s;
+                        background-color: white;
+                        color: rgb(33, 90, 177);
+                        border-color: white;
+                        font-weight: 300;
+                    }
+                }
+
+            }
+
+        }
+        
+        .contact-right-container{
+            @include flexCenter();
+            flex-direction: column;
+            height: 100vh;
+            width: 50%;
+
+
+            .contact-socials-container{
+                @include flexCenter();
+                flex-direction: column;
+                height: 500px;
+                width: 500px;
+               
+            }
+        }
+        
+        
+        
+
+
+
+
+    }
+
 }
+

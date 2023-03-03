@@ -25,8 +25,8 @@ function Projects(){
                          in their online adventures.   
                         </p>
                         <div className="project-buttons">
-                        <button> See project</button>
-                        <button>Github</button>
+                        <a href="https://oakleaf.vercel.app/" target={"_blank"}><button> See project</button></a>
+                        <a href="https://github.com/MrFoxCode/guild-next-app" target={"_blank"}><button>Github</button></a>
                         </div>
                     </div>
                     
@@ -40,8 +40,8 @@ function Projects(){
                         With custom commands that allows you to control things more easily.
                         </p>
                         <div className="project-buttons">
-                        <button> See project</button>
-                        <button>Github</button>
+                        <a href="https://mrfoxcode.github.io/cida/" target={"_blank"}><button> See project</button></a>
+                        <a href="https://github.com/MrFoxCode/CIDABot" target={"_blank"}><button>Github</button></a>
                         </div>
                     </div>
 
@@ -55,8 +55,8 @@ function Projects(){
                         you can use to track points from those friendly matches.
                         </p>
                         <div className="project-buttons">
-                        <button> See project</button>
-                        <button>CodePen</button>
+                        <a href="https://codepen.io/foxvulpes/full/JjJvvoa" target={"_blank"} ><button> See project</button></a>
+                        <a href="https://codepen.io/foxvulpes/pen/JjJvvoa" target={"_blank"}><button>CodePen</button></a>
                         </div>
                     </div>
 
@@ -70,8 +70,8 @@ function Projects(){
                          kind of currency. One of my first projects.
                         </p>
                         <div className="project-buttons">
-                        <button> See project</button>
-                        <button>CodePen</button>
+                        <a href="https://codepen.io/foxvulpes/full/NWgaGMB" target={"_blank"}><button>See project</button></a>
+                        <a href="https://codepen.io/foxvulpes/pen/NWgaGMB" target={"_blank"} ><button>CodePen</button></a>
                         </div>
                     </div>
 
