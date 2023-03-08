@@ -31,7 +31,7 @@
             .contact-form {
                 @include flexCenter();
                 flex-direction: column;
-                height: 80vh;
+                height: 66vh;
                 width: 500px;
                 // background-color: rgba(36, 36, 36, 0.2);
                 // background-color: $blue;
@@ -63,10 +63,12 @@
                     outline-color: #cfcfcf;
                 }
 
-                .subject {                    
+                .message-container {                    
                     textarea {
                         height: 100px;
                         width: 400px;
+                        max-height: 100px;
+                        max-width: 400px;
                         margin-bottom: 25px;
                         border-radius: 0.2em;
                         padding-top: 5px;
@@ -83,27 +85,28 @@
 
                 }
 
-                .submit-button {
-                    button {
-                        cursor: pointer;
-                        @extend .home-button;
-                        color: white;
-                        border: 2px solid;
-                        width: 200px;
-                        height: 50px;
-                        padding-bottom: 8px;
-                        transition: 0.3s;
-                    }
+            }
 
-                    :hover {
-                        transition: 0.3s;
-                        background-color: white;
-                        color: rgb(33, 90, 177);
-                        border-color: white;
-                        font-weight: 300;
-                    }
+            
+            .submit-button {
+                button {
+                    cursor: pointer;
+                    @extend .home-button;
+                    color: white;
+                    border: 2px solid;
+                    width: 200px;
+                    height: 50px;
+                    padding-bottom: 8px;
+                    transition: 0.3s;
                 }
 
+                :hover {
+                    transition: 0.3s;
+                    background-color: white;
+                    color: rgb(33, 90, 177);
+                    border-color: white;
+                    font-weight: 300;
+                }
             }
 
         }

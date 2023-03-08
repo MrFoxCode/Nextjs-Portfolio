@@ -9,7 +9,7 @@
   font-weight: 500;
 }
 
-.home-button, .home-container .content-container .rightside-content .homebutton-container button, .projects-container .projects-content .projects-all-container .project1 .project-buttons a button, .contact-container .contact-all .contact-left-container .contact-form .submit-button button {
+.home-button, .home-container .content-container .rightside-content .homebutton-container button, .projects-container .projects-content .projects-all-container .project1 .project-buttons a button, .contact-container .contact-all .contact-left-container .submit-button button {
   width: 200px;
   height: 60px;
   padding-top: 0.2em;
@@ -797,7 +797,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 80vh;
+  height: 66vh;
   width: 500px;
   border-radius: 0.3em;
 }
@@ -824,9 +824,11 @@
   outline-color: #cfcfcf;
 }
 
-.contact-container .contact-all .contact-left-container .contact-form .subject textarea {
+.contact-container .contact-all .contact-left-container .contact-form .message-container textarea {
   height: 100px;
   width: 400px;
+  max-height: 100px;
+  max-width: 400px;
   margin-bottom: 25px;
   border-radius: 0.2em;
   padding-top: 5px;
@@ -835,13 +837,13 @@
   text-align: flex-start;
 }
 
-.contact-container .contact-all .contact-left-container .contact-form .subject textarea:focus {
+.contact-container .contact-all .contact-left-container .contact-form .message-container textarea:focus {
   outline: solid;
   outline-width: 2px;
   outline-color: #cfcfcf;
 }
 
-.contact-container .contact-all .contact-left-container .contact-form .submit-button button {
+.contact-container .contact-all .contact-left-container .submit-button button {
   cursor: pointer;
   color: white;
   border: 2px solid;
@@ -852,7 +854,7 @@
   transition: 0.3s;
 }
 
-.contact-container .contact-all .contact-left-container .contact-form .submit-button :hover {
+.contact-container .contact-all .contact-left-container .submit-button :hover {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   background-color: white;

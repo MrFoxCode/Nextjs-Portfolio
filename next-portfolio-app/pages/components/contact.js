@@ -56,39 +56,39 @@ console.log("there's nothing here");
                     <h3>Get in touch</h3>
                 </div>
                     
-                    <div className="contact-form">
+                    <form className="contact-form">
 
                         <div className="full-name">
                             <h4>Name</h4>
-                        <input id = "inputname" type={"text"} placeholder="Full Name"></input>
+                        <input id = "inputname" type={"text"}  placeholder="Full Name"></input>
                         </div>
-
-                        <div className="company">
-                         <h4>Company</h4>   
-                        <input  id = "inputcompany" type={"text"} placeholder="Company Name"></input>
-                        </div>
-
-                        {/* <div className="Phone">
-                        <h4>Phone Number</h4>
-                        <input  type={"tel"} placeholder="Your Phone Number"></input>
-                        </div>  */}
 
                         <div className="email">
                         <h4>Email</h4>
                         <input id = "inputemail" type={"email"} placeholder="Your Email"></input>
                         </div>
 
-                        <div className="subject">
+                        <div className="company">
+                        <h4>Company</h4>   
+                        <input  id = "inputcompany" type={"text"} placeholder="Company Name"></input>
+                        </div>
+
+
+                        {/* <div className="subject">
+                        <h4>Subject</h4>
+                        <input  type={"text"} placeholder="Subject"></input>
+                        </div>   */}
+
+                        <div className="message-container">
                         <h4>Message</h4>
                         <textarea  id = "inputsubject" type={"text"} placeholder="Message"></textarea>
                         </div>
+                        
+                    </form>
 
-
-                        <div className="submit-button">
+                    <div className="submit-button">
                           <button onClick={sendEmail} type="submit">Send</button>  
                         </div>
-                        
-                    </div>
 
                 </div>
 
