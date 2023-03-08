@@ -4,7 +4,7 @@ import config from "../config.json";
 
 function Projects(){
     return(
-        <div className="projects-container">
+        <div className="projects-container" id="projectS">
             
             <div className="projects-content">
 

@@ -8,9 +8,43 @@ function Contact(){
 // FORM SCRIPT
 //
 
+
+
+function sendEmail (){
+    
+let getName = document.getElementById("inputname");
+let getCompany = document.getElementById("inputcompany");
+let getEmail = document.getElementById("inputemail");
+let getSubject = document.getElementById("inputsubject");
+
+
+if(!getName.value || !getCompany.value || !getEmail.value || !getSubject.value){
+console.log("there's nothing here");
+
+ 
+
+
+}else{
+    
+    
+    
+    
+    
+    
+    //Clean Inputs
+    getName.value ="";
+    getCompany.value ="";
+    getEmail.value ="";
+    getSubject.value ="";
+    console.log("email sent!");
+}
+
+
+}
+
 //---------------------------
     return(
-        <div className="contact-container">
+        <div className="contact-container" id="contactS">
 
             <div className="contact-all">
 
@@ -26,27 +60,32 @@ function Contact(){
 
                         <div className="full-name">
                             <h4>Name</h4>
-                        <input  type={"text"} placeholder="Full Name"></input>
+                        <input id = "inputname" type={"text"} placeholder="Full Name"></input>
                         </div>
 
                         <div className="company">
                          <h4>Company</h4>   
-                        <input  type={"text"} placeholder="Company Name"></input>
+                        <input  id = "inputcompany" type={"text"} placeholder="Company Name"></input>
                         </div>
+
+                        {/* <div className="Phone">
+                        <h4>Phone Number</h4>
+                        <input  type={"tel"} placeholder="Your Phone Number"></input>
+                        </div>  */}
 
                         <div className="email">
                         <h4>Email</h4>
-                        <input  type={"email"} placeholder="Your Email"></input>
+                        <input id = "inputemail" type={"email"} placeholder="Your Email"></input>
                         </div>
 
                         <div className="subject">
-                        <h4>Subject</h4>
-                        <input  type={"text"} placeholder="Subject"></input>
+                        <h4>Message</h4>
+                        <textarea  id = "inputsubject" type={"text"} placeholder="Message"></textarea>
                         </div>
 
 
                         <div className="submit-button">
-                          <button type="submit">Send</button>  
+                          <button onClick={sendEmail} type="submit">Send</button>  
                         </div>
                         
                     </div>

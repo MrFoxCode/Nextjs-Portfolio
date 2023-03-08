@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import config from "../config.json";
 
 function Navbar(){
@@ -14,10 +15,12 @@ function Navbar(){
 
             <div className="navlinks-container">
                 <ul className="nav-links">
-                    <a><li>Home</li></a>
-                    <a><li>About Me</li></a>                    
-                    <a><li>Projects</li></a>                    
-                    <a><li>Contact</li></a>                    
+                    
+                <Link to ={"homeS"} duration={300} smooth={true}><li>Home</li></Link>
+                <Link to ={"aboutS"} duration={300} smooth={true}><li>About Me</li></Link>
+                <Link to ={"projectS"} duration={300} smooth={true}><li>Project</li></Link>
+                <Link to ={"contactS"} duration={300} smooth={true}><li>Contact</li></Link>
+                                     
                 </ul>
             </div>
         

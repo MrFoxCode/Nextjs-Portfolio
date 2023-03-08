@@ -40,6 +40,8 @@
 
                 h4 {
                     font-size: 15px;
+                    margin-bottom: 3px;
+                    //margin-left: 10px;
                     color: white;
 
                 }
@@ -50,14 +52,33 @@
                     margin-bottom: 25px;
                     border-radius: 0.2em;
                     border: 0;
-                    text-align: center;
+                    text-align: start;
+                    padding-left: 10px;
+                    
+                    
+                }
+                input:focus{
+                    outline: solid;
+                    outline-width: 2px;
+                    outline-color: #cfcfcf;
                 }
 
-                .subject {
-                    input {
+                .subject {                    
+                    textarea {
                         height: 100px;
                         width: 400px;
                         margin-bottom: 25px;
+                        border-radius: 0.2em;
+                        padding-top: 5px;
+                        padding-left: 10px;
+                        border: 0;
+                        text-align: flex-start;
+                        
+                    }textarea:focus{
+                        
+                    outline: solid;
+                    outline-width: 2px;
+                    outline-color: #cfcfcf;
                     }
 
                 }

@@ -87,11 +87,6 @@
   width: 500px;
 }
 
-.navbar-container .nav-links a {
-  font-size: 20px;
-  cursor: pointer;
-}
-
 .navbar-container .nav-links li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -107,6 +102,8 @@
   -webkit-transition: 0.5s;
   transition: 0.5s;
   color: white;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 .navbar-container .nav-links :hover {
@@ -807,6 +804,7 @@
 
 .contact-container .contact-all .contact-left-container .contact-form h4 {
   font-size: 15px;
+  margin-bottom: 3px;
   color: white;
 }
 
@@ -816,13 +814,31 @@
   margin-bottom: 25px;
   border-radius: 0.2em;
   border: 0;
-  text-align: center;
+  text-align: start;
+  padding-left: 10px;
 }
 
-.contact-container .contact-all .contact-left-container .contact-form .subject input {
+.contact-container .contact-all .contact-left-container .contact-form input:focus {
+  outline: solid;
+  outline-width: 2px;
+  outline-color: #cfcfcf;
+}
+
+.contact-container .contact-all .contact-left-container .contact-form .subject textarea {
   height: 100px;
   width: 400px;
   margin-bottom: 25px;
+  border-radius: 0.2em;
+  padding-top: 5px;
+  padding-left: 10px;
+  border: 0;
+  text-align: flex-start;
+}
+
+.contact-container .contact-all .contact-left-container .contact-form .subject textarea:focus {
+  outline: solid;
+  outline-width: 2px;
+  outline-color: #cfcfcf;
 }
 
 .contact-container .contact-all .contact-left-container .contact-form .submit-button button {

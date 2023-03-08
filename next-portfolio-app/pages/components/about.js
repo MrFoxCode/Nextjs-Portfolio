@@ -3,7 +3,7 @@ import config from "../config.json";
 
 function About(){
     return(
-        <div className="about-container">
+        <div className="about-container" id="aboutS">
 
         <div className="about-content">
             <div className="aboutleft-container">

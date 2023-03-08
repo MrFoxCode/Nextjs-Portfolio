@@ -35,31 +35,23 @@
         text-decoration: none;
         list-style: none;
         width: 500px;
-        
-
-        a{
-            font-size: 20px;
-            cursor: pointer;
-        }         
+       
 
         li{
             @include flexCenter();
             height: 70px;
             width: 100px;           
             transition: 0.5s;
-            color: rgb(255, 255, 255);  
-                               
-       
+            color: rgb(255, 255, 255); 
+            font-size: 20px;
+            cursor: pointer; 
             
       }:hover{
             transition: 0.5s;                     
             background: linear-gradient(180deg, rgba(255,255,255,0) 96%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%);            
         }
     
-    
-    
     }
-
 
     .lang-container{
         cursor: pointer;
